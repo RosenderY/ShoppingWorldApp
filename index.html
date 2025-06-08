@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shopping World</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Shopping World - Login</h2>
+    <form>
+      <input type="text" placeholder="Username" required />
+      <input type="email" placeholder="Email" required />
+      <button type="button" onclick="document.getElementById('shop').style.display='block'">Login</button>
+    </form>
+
+    <div id="shop" class="section" style="display:none;">
+      <h2>Welcome, Customer!</h2>
+      <p>Email: demo@example.com</p>
+
+      <div class="section">
+        <h3>Add Product</h3>
+        <input type="text" placeholder="Product name" />
+        <input type="number" placeholder="Price" />
+        <button>Add Product</button>
+      </div>
+
+      <div class="section">
+        <h3>Product List</h3>
+        <ul>
+          <li>Sample Product - $10</li>
+          <li>Another Product - $15</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
