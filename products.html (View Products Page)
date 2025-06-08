@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping World - Products</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">Login</a>
+    <a href="products.html">Products</a>
+    <a href="add.html">Add Product</a>
+    <a href="customer.html">Customer</a>
+  </nav>
+  <div class="container">
+    <h2>Product List</h2>
+    <ul>
+      <li>Shirt - $20</li>
+      <li>Shoes - $40</li>
+      <li>Watch - $100</li>
+    </ul>
+  </div>
+</body>
+</html>
